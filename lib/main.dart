@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         textTheme: const TextTheme(
           bodyLarge: TextStyle(
             fontSize: 32,
-            color: Colors.deepPurple, // Custom color
+            color: Color.fromARGB(255, 19, 146, 135), // Custom color
           ),
         ),
       ),
