@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Hello World App',
+      title: 'Hello_World',
       theme: ThemeData(
         fontFamily: 'RobotoMono', // Custom font
         textTheme: const TextTheme(
