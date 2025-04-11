@@ -90,7 +90,9 @@ class ProfileScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           CircleAvatar(
-            backgroundImage: NetworkImage('https://i.pravatar.cc/300'),
+            backgroundImage: NetworkImage(
+              'https://www.allaboutbirds.org/guide/assets/photo/60388191-480px.jpg',
+            ), // Bird image URL
             radius: 50,
           ),
           SizedBox(height: 16),
